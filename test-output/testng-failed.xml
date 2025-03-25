@@ -7,6 +7,7 @@
         <methods>
           <include name="testAccessCartWithoutLogin"/>
           <include name="closeBrowser"/>
+          <include name="setup"/>
         </methods>
       </class> <!-- testcases.CartTest -->
     </classes>

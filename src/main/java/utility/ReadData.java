@@ -17,14 +17,14 @@ public class ReadData {
 	public static String readProperty(String value) throws IOException
 	{
 		Properties	prop = new Properties();
-		FileInputStream fis = new FileInputStream("C:\\SoftwareTesting\\Selenium-Java\\HybridFramework\\src\\main\\java\\config\\config.properties");
+		FileInputStream fis = new FileInputStream("E:\\Manual and Automation Testing Materials\\HybridFramework\\src\\main\\java\\config\\config.properties");
 		prop.load(fis);
 		return prop.getProperty(value);
 	}
 	
 	public static String readExcel(int rowNum,int colNum) throws EncryptedDocumentException, IOException
 	{
-		FileInputStream fis = new FileInputStream("C:\\Users\\darek\\git\\Selenium-Java\\HybridFramework\\testdata\\data.xlsx");
+		FileInputStream fis = new FileInputStream("E:\\Manual and Automation Testing Materials\\HybridFramework\\testdata\\data.xlsx");
 		Workbook wk = WorkbookFactory.create(fis);
 	    Sheet sheet = wk.getSheet("Sheet1");
 	    String value = sheet.getRow(rowNum).getCell(colNum).getStringCellValue();
@@ -34,7 +34,7 @@ public class ReadData {
 	public static String[][] readExcel(String sheetName) throws EncryptedDocumentException, IOException
 	{
 		String data[][];
-		FileInputStream fis = new FileInputStream("C:\\Users\\darek\\git\\Selenium-Java\\HybridFramework\\testdata\\data1.xlsx");
+		FileInputStream fis = new FileInputStream("E:\\Manual and Automation Testing Materials\\HybridFramework\\testdata\\data1.xlsx");
 		Workbook wk = WorkbookFactory.create(fis);
 	    Sheet sheet = wk.getSheet(sheetName);
 	    int columns = sheet.getRow(1).getLastCellNum();

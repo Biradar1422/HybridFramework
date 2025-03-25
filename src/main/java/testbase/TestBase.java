@@ -21,7 +21,7 @@ public class TestBase {
 		
 		switch(browser) {
 		
-		case "chrome" : System.setProperty("webdriver.chrome.driver", "C:\\Users\\darek\\.cache\\selenium\\chromedriver\\win64\\134.0.6998.165\\chromedriver.exe");
+		case "chrome" : System.setProperty("webdriver.chrome.driver", "C:\\Users\\DELL\\.cache\\selenium\\chromedriver\\win64\\134.0.6998.165\\chromedriver.exe");
 						driver =new ChromeDriver();
 						break;
 		case "edge" :   WebDriverManager.edgedriver();

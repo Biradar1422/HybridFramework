@@ -1,76 +1,264 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
   <reporter-output>
     <line>
-      <![CDATA[Login successful--https://www.saucedemo.com/inventory.html]]>
+      <![CDATA[About menu working as expected]]>
+    </line>
+    <line>
+      <![CDATA[All Items Menu working as expected]]>
+    </line>
+    <line>
+      <![CDATA[Product removed from cart successfully]]>
+    </line>
+    <line>
+      <![CDATA[Continue shpooing button working as expected]]>
+    </line>
+    <line>
+      <![CDATA[Logout menu working as expected]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+    <line>
+      <![CDATA[Reset menu working as expected]]>
     </line>
   </reporter-output>
-  <suite started-at="2025-03-22T01:57:32 IST" name="Default suite" finished-at="2025-03-22T01:57:41 IST" duration-ms="8523">
+  <suite started-at="2025-03-25T15:42:20 IST" name="Default suite" finished-at="2025-03-25T15:43:49 IST" duration-ms="89358">
     <groups>
     </groups>
-    <test started-at="2025-03-22T01:57:32 IST" name="Default test" finished-at="2025-03-22T01:57:41 IST" duration-ms="8523">
-      <class name="testcases.LoginTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.LoginTest@18271936]" started-at="2025-03-22T01:57:32 IST" name="setup" finished-at="2025-03-22T01:57:35 IST" duration-ms="3121" status="PASS">
+    <test started-at="2025-03-25T15:42:20 IST" name="Default test" finished-at="2025-03-25T15:43:49 IST" duration-ms="89358">
+      <class name="testcases.CartTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.CartTest@7a35b0f5]" started-at="2025-03-25T15:42:20 IST" name="setup" finished-at="2025-03-25T15:42:24 IST" duration-ms="4442" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="logintoapplication()[pri:0, instance:testcases.LoginTest@18271936]" started-at="2025-03-22T01:57:35 IST" name="logintoapplication" finished-at="2025-03-22T01:57:36 IST" duration-ms="849" status="PASS">
+        <test-method signature="testAccessCartWithoutLogin()[pri:0, instance:testcases.CartTest@7a35b0f5]" started-at="2025-03-25T15:42:24 IST" name="testAccessCartWithoutLogin" finished-at="2025-03-25T15:42:29 IST" duration-ms="5053" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAccessCartWithoutLogin -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:testcases.CartTest@7a35b0f5]" started-at="2025-03-25T15:42:29 IST" name="closeBrowser" finished-at="2025-03-25T15:42:30 IST" duration-ms="223" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testAccessCartWithoutLogin status=SUCCESS method=CartTest.testAccessCartWithoutLogin()[pri:0, instance:testcases.CartTest@7a35b0f5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.CartTest@7a35b0f5]" started-at="2025-03-25T15:42:30 IST" name="setup" finished-at="2025-03-25T15:42:32 IST" duration-ms="2848" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyAboutMenu()[pri:0, instance:testcases.CartTest@7a35b0f5]" started-at="2025-03-25T15:42:32 IST" name="verifyAboutMenu" finished-at="2025-03-25T15:43:00 IST" duration-ms="27836" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[Login successful--https://www.saucedemo.com/inventory.html]]>
+              <![CDATA[About menu working as expected]]>
             </line>
           </reporter-output>
-        </test-method> <!-- logintoapplication -->
-        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:testcases.LoginTest@18271936]" started-at="2025-03-22T01:57:36 IST" name="closeBrowser" finished-at="2025-03-22T01:57:36 IST" duration-ms="151" status="PASS">
+        </test-method> <!-- verifyAboutMenu -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:testcases.CartTest@7a35b0f5]" started-at="2025-03-25T15:43:00 IST" name="closeBrowser" finished-at="2025-03-25T15:43:01 IST" duration-ms="363" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=logintoapplication status=SUCCESS method=LoginTest.logintoapplication()[pri:0, instance:testcases.LoginTest@18271936] output=Login successful--https://www.saucedemo.com/inventory.html]]]>
+                <![CDATA[[TestResult name=verifyAboutMenu status=SUCCESS method=CartTest.verifyAboutMenu()[pri:0, instance:testcases.CartTest@7a35b0f5] output=About menu working as expected]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.LoginTest@18271936]" started-at="2025-03-22T01:57:36 IST" name="setup" finished-at="2025-03-22T01:57:38 IST" duration-ms="2076" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.CartTest@7a35b0f5]" started-at="2025-03-25T15:43:01 IST" name="setup" finished-at="2025-03-25T15:43:04 IST" duration-ms="3040" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyTitleOfApplication()[pri:0, instance:testcases.LoginTest@18271936]" started-at="2025-03-22T01:57:38 IST" name="verifyTitleOfApplication" finished-at="2025-03-22T01:57:38 IST" duration-ms="43" status="PASS">
+        <test-method signature="verifyAllItemsMenu()[pri:0, instance:testcases.CartTest@7a35b0f5]" started-at="2025-03-25T15:43:04 IST" name="verifyAllItemsMenu" finished-at="2025-03-25T15:43:07 IST" duration-ms="3191" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[All Items Menu working as expected]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- verifyTitleOfApplication -->
-        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:testcases.LoginTest@18271936]" started-at="2025-03-22T01:57:38 IST" name="closeBrowser" finished-at="2025-03-22T01:57:39 IST" duration-ms="113" status="PASS">
+        </test-method> <!-- verifyAllItemsMenu -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:testcases.CartTest@7a35b0f5]" started-at="2025-03-25T15:43:07 IST" name="closeBrowser" finished-at="2025-03-25T15:43:07 IST" duration-ms="190" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyTitleOfApplication status=SUCCESS method=LoginTest.verifyTitleOfApplication()[pri:0, instance:testcases.LoginTest@18271936] output={null}]]]>
+                <![CDATA[[TestResult name=verifyAllItemsMenu status=SUCCESS method=CartTest.verifyAllItemsMenu()[pri:0, instance:testcases.CartTest@7a35b0f5] output=All Items Menu working as expected]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.LoginTest@18271936]" started-at="2025-03-22T01:57:39 IST" name="setup" finished-at="2025-03-22T01:57:41 IST" duration-ms="1949" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.CartTest@7a35b0f5]" started-at="2025-03-25T15:43:07 IST" name="setup" finished-at="2025-03-25T15:43:10 IST" duration-ms="2828" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyURLOfApplication()[pri:0, instance:testcases.LoginTest@18271936]" started-at="2025-03-22T01:57:41 IST" name="verifyURLOfApplication" finished-at="2025-03-22T01:57:41 IST" duration-ms="42" status="PASS">
+        <test-method signature="verifyApplicationTitle()[pri:0, instance:testcases.CartTest@7a35b0f5]" started-at="2025-03-25T15:43:10 IST" name="verifyApplicationTitle" finished-at="2025-03-25T15:43:10 IST" duration-ms="17" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyURLOfApplication -->
-        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:testcases.LoginTest@18271936]" started-at="2025-03-22T01:57:41 IST" name="closeBrowser" finished-at="2025-03-22T01:57:41 IST" duration-ms="122" status="PASS">
+        </test-method> <!-- verifyApplicationTitle -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:testcases.CartTest@7a35b0f5]" started-at="2025-03-25T15:43:10 IST" name="closeBrowser" finished-at="2025-03-25T15:43:10 IST" duration-ms="186" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyURLOfApplication status=SUCCESS method=LoginTest.verifyURLOfApplication()[pri:0, instance:testcases.LoginTest@18271936] output={null}]]]>
+                <![CDATA[[TestResult name=verifyApplicationTitle status=SUCCESS method=CartTest.verifyApplicationTitle()[pri:0, instance:testcases.CartTest@7a35b0f5] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-      </class> <!-- testcases.LoginTest -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.CartTest@7a35b0f5]" started-at="2025-03-25T15:43:10 IST" name="setup" finished-at="2025-03-25T15:43:13 IST" duration-ms="2885" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyApplicationUrl()[pri:0, instance:testcases.CartTest@7a35b0f5]" started-at="2025-03-25T15:43:13 IST" name="verifyApplicationUrl" finished-at="2025-03-25T15:43:13 IST" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyApplicationUrl -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:testcases.CartTest@7a35b0f5]" started-at="2025-03-25T15:43:13 IST" name="closeBrowser" finished-at="2025-03-25T15:43:13 IST" duration-ms="155" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyApplicationUrl status=SUCCESS method=CartTest.verifyApplicationUrl()[pri:0, instance:testcases.CartTest@7a35b0f5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.CartTest@7a35b0f5]" started-at="2025-03-25T15:43:13 IST" name="setup" finished-at="2025-03-25T15:43:16 IST" duration-ms="2903" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyCartAfterRemovingProduct()[pri:0, instance:testcases.CartTest@7a35b0f5]" started-at="2025-03-25T15:43:16 IST" name="verifyCartAfterRemovingProduct" finished-at="2025-03-25T15:43:20 IST" duration-ms="4222" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Product removed from cart successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyCartAfterRemovingProduct -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:testcases.CartTest@7a35b0f5]" started-at="2025-03-25T15:43:20 IST" name="closeBrowser" finished-at="2025-03-25T15:43:20 IST" duration-ms="160" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyCartAfterRemovingProduct status=SUCCESS method=CartTest.verifyCartAfterRemovingProduct()[pri:0, instance:testcases.CartTest@7a35b0f5] output=Product removed from cart successfully]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.CartTest@7a35b0f5]" started-at="2025-03-25T15:43:21 IST" name="setup" finished-at="2025-03-25T15:43:23 IST" duration-ms="2829" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyCheckout()[pri:0, instance:testcases.CartTest@7a35b0f5]" started-at="2025-03-25T15:43:23 IST" name="verifyCheckout" finished-at="2025-03-25T15:43:27 IST" duration-ms="4116" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCheckout -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:testcases.CartTest@7a35b0f5]" started-at="2025-03-25T15:43:27 IST" name="closeBrowser" finished-at="2025-03-25T15:43:28 IST" duration-ms="198" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyCheckout status=SUCCESS method=CartTest.verifyCheckout()[pri:0, instance:testcases.CartTest@7a35b0f5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.CartTest@7a35b0f5]" started-at="2025-03-25T15:43:28 IST" name="setup" finished-at="2025-03-25T15:43:30 IST" duration-ms="2846" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyContinueShoppingBtn()[pri:0, instance:testcases.CartTest@7a35b0f5]" started-at="2025-03-25T15:43:30 IST" name="verifyContinueShoppingBtn" finished-at="2025-03-25T15:43:34 IST" duration-ms="3118" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Continue shpooing button working as expected]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyContinueShoppingBtn -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:testcases.CartTest@7a35b0f5]" started-at="2025-03-25T15:43:34 IST" name="closeBrowser" finished-at="2025-03-25T15:43:34 IST" duration-ms="191" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyContinueShoppingBtn status=SUCCESS method=CartTest.verifyContinueShoppingBtn()[pri:0, instance:testcases.CartTest@7a35b0f5] output=Continue shpooing button working as expected]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.CartTest@7a35b0f5]" started-at="2025-03-25T15:43:34 IST" name="setup" finished-at="2025-03-25T15:43:37 IST" duration-ms="2816" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLogoutMenu()[pri:0, instance:testcases.CartTest@7a35b0f5]" started-at="2025-03-25T15:43:37 IST" name="verifyLogoutMenu" finished-at="2025-03-25T15:43:40 IST" duration-ms="3191" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Logout menu working as expected]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyLogoutMenu -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:testcases.CartTest@7a35b0f5]" started-at="2025-03-25T15:43:40 IST" name="closeBrowser" finished-at="2025-03-25T15:43:40 IST" duration-ms="177" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLogoutMenu status=SUCCESS method=CartTest.verifyLogoutMenu()[pri:0, instance:testcases.CartTest@7a35b0f5] output=Logout menu working as expected]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.CartTest@7a35b0f5]" started-at="2025-03-25T15:43:40 IST" name="setup" finished-at="2025-03-25T15:43:43 IST" duration-ms="2734" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyProductNameClickNavigation()[pri:0, instance:testcases.CartTest@7a35b0f5]" started-at="2025-03-25T15:43:43 IST" name="verifyProductNameClickNavigation" finished-at="2025-03-25T15:43:43 IST" duration-ms="103" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyProductNameClickNavigation -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:testcases.CartTest@7a35b0f5]" started-at="2025-03-25T15:43:43 IST" name="closeBrowser" finished-at="2025-03-25T15:43:43 IST" duration-ms="137" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyProductNameClickNavigation status=SUCCESS method=CartTest.verifyProductNameClickNavigation()[pri:0, instance:testcases.CartTest@7a35b0f5] output=""]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.CartTest@7a35b0f5]" started-at="2025-03-25T15:43:43 IST" name="setup" finished-at="2025-03-25T15:43:46 IST" duration-ms="2850" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyResetAppMenu()[pri:0, instance:testcases.CartTest@7a35b0f5]" started-at="2025-03-25T15:43:46 IST" name="verifyResetAppMenu" finished-at="2025-03-25T15:43:49 IST" duration-ms="3176" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Reset menu working as expected]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyResetAppMenu -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:testcases.CartTest@7a35b0f5]" started-at="2025-03-25T15:43:49 IST" name="closeBrowser" finished-at="2025-03-25T15:43:49 IST" duration-ms="196" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyResetAppMenu status=SUCCESS method=CartTest.verifyResetAppMenu()[pri:0, instance:testcases.CartTest@7a35b0f5] output=Reset menu working as expected]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testcases.CartTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
